@@ -1,0 +1,4 @@
+iostream.h and conio.h are called preprocessor statements.
+#include<iostream.h> is used in C++ in order to include the header file “iostream” in the program. Iostream is used to invoke the commonly used functions like cout,cin in a C++ program. Iostream stands for input output stream.
+
+#include<conio.h> is used in both C as well as C++. It is used to include the header file “conio” in a program. Conio is used to invoke the functions related to the output of the program like clrscr(),getch() etc. Conio stands for console input output. :) 
