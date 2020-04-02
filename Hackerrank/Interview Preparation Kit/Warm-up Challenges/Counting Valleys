@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+int countingValleys(int n, string s) {
+
+  bool alInvalley = false;
+    int alSealevel = 0, alRes = 0;
+    for(auto it : s) {
+        it == 'D' ? alSealevel-- : alSealevel++;
+        
+        if ( alSealevel < 0 && alInvalley == false ) {
+            alRes++;
+            alInvalley = true;
+        }
+         
+        if ( alSealevel == 0 && alInvalley == true ) {
+            alInvalley = false;
+        }
+    }
+ 
+    return alRes;
+}
+
+int main()
+{
+    ofstream fout(getenv("OUTPUT_PATH"));
+
+    int n;
+    cin >> n;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    string s;
+    getline(cin, s);
+
+    int result = countingValleys(n, s);
+
+    fout << result << "\n";
+
+    fout.close();
+
+    return 0;
+}
