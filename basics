@@ -18,6 +18,7 @@ inshort dont use it for big projects
 cin.ignore(numeric_limits<streamsize>::max(), '\n')
 clear buffer before taking new line
 '\n' sets the delimiter, i.e. the character after which cin stops ignoring
+when using it include #include<ios> and #include<limits>
 
 you should use -> 
 for(auto& it : s) {
