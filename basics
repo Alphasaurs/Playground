@@ -28,4 +28,6 @@ instead of
 for(auto it =s.begin(); it !=s.end(); it++){
 cout<<*it <<endl;
 }
+
+r_area.Rectangle::display(); ? accessing base class as r_area is an object of child class.
            
