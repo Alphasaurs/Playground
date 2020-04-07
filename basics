@@ -30,4 +30,14 @@ cout<<*it <<endl;
 }
 
 r_area.Rectangle::display(); ? accessing base class as r_area is an object of child class.
+
+double f=5.14159; ??#include <iomanip>  
+cout<<setprecision(5)<<f //5.1416 ??Set decimal precision
+Sets the decimal precision to be used to format floating-point values on output operations.
+cout<<setprecision(9)<<f //5.14159
+cout<<fixed<<setprecision(5)<<f //5.14159 
+cout<<fixed<<setprecision(5)<<f //5.141590000
+
+
+
            
