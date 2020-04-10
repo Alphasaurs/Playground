@@ -38,8 +38,6 @@ cout<<setprecision(9)<<f //5.14159
 cout<<fixed<<setprecision(5)<<f //5.14159 
 cout<<fixed<<setprecision(5)<<f //5.141590000
 
-int **a=new int*[n]; //a is a variable that is the pointer to the memory block that contains pointers to integers
-
-
-
+int **a=new int*[n]; //// Create an array of pointers to integer arrays i.e., an array of variable-length arrays
+    
            
