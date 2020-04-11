@@ -37,7 +37,18 @@ Sets the decimal precision to be used to format floating-point values on output 
 cout<<setprecision(9)<<f //5.14159
 cout<<fixed<<setprecision(5)<<f //5.14159 
 cout<<fixed<<setprecision(5)<<f //5.141590000
-
+////////////////////////////
+infinite loop
+->>for(;;)
+->>while (i != 0)
+    {
+        i-- ;
+        printf( "This loop will run forever.\n");
+    }
+ ->> while (true)
+    {
+        printf( "This loop will run forever.\n");
+    }
 int **a=new int*[n]; //// Create an array of pointers to integer arrays i.e., an array of variable-length arrays
-    
+ 
            
