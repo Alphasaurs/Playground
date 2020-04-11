@@ -49,6 +49,7 @@ infinite loop
     {
         printf( "This loop will run forever.\n");
     }
+////////////////////////////////////////
 int **a=new int*[n]; //// Create an array of pointers to integer arrays i.e., an array of variable-length arrays
  
            
