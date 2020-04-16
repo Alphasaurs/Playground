@@ -51,5 +51,8 @@ infinite loop
     }
 ////////////////////////////////////////
 int **a=new int*[n]; //// Create an array of pointers to integer arrays i.e., an array of variable-length arrays
+////////////////////
+left shift(5<<1)==10 i,e multiply by 2
+left shift(5<<2)==20 i.e multiply by 2*2
  
            
