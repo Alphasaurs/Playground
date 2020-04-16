@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+
+int main()
+{
+    int n;
+    cin >> n;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+     int altcount = 0, altmax = 0;
+    while(n)
+    {
+        if (n&1)
+
+            altcount++;
+        else 
+
+            altcount = 0;
+
+        if (altmax < altcount)
+            altmax = altcount;
+     n>>=1;       
+    }
+    cout << altmax;
+    return 0;
+}
