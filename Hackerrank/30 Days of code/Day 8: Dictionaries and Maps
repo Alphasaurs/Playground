@@ -1,0 +1,40 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <map>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    map<string,string> cool;
+    int n,i;
+    cin>>n;
+    for(i=0;i<n;i++)
+    {
+    
+        string user;
+        string mobile;
+        cin>>user;
+        cin>>mobile;
+        cool[user]=mobile;
+    
+    }
+    map<string,string>::iterator it;
+    string q;
+    while(cin>>q)
+    {
+        it=cool.find(q);
+        if(it !=cool.end())
+        {
+            cout<<it->first<<"="<<it->second<<'\n';
+
+        }
+        else{
+            cout<<"Not found"<<'\n';
+        }
+    }
+    return 0;
+}
