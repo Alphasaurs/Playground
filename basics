@@ -54,5 +54,8 @@ int **a=new int*[n]; //// Create an array of pointers to integer arrays i.e., an
 ////////////////////
 left shift(5<<1)==10 i,e multiply by 2
 left shift(5<<2)==20 i.e multiply by 2*2
+
+right shift(14>>1)==7 i,e divide by 2
+right shift(14>>2)==20 i.e divide by 2*2
  
            
