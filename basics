@@ -50,6 +50,12 @@ infinite loop
         printf( "This loop will run forever.\n");
     }
 ////////////////////////////////////////
+POINTERS
+int *cool; // cool is a pointer to int
+int cool[5]; // cool is a array of 5 ints
+int cool(); // cool is a function returning int
+int **cool[4]; // cool is a array of 4  pointer to pointer to int
+
 int **a=new int*[n]; //// Create an array of pointers to integer arrays i.e., an array of variable-length arrays
 ////////////////////
 left shift(5<<1)==10 i,e multiply by 2
