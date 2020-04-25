@@ -1,0 +1,18 @@
+# APPLICATIONS OF STACK
+1.Expression Evaluation
+2.Expression Conversion
+3.Syntax Parsing
+4.Backtracking
+5.Parenthesis Checking
+6.String Reversal
+7.Function Call
+8.undo button
+
+# APPLICATIONS OF QUEUE
+1.When resources is shared among various consumers as CPU scheduling, Disk Scheduling.
+2.Data Transfer between two asynchronous process as  IO Buffers, pipes, file IO
+
+
+
+
+
