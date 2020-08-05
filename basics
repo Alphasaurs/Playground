@@ -57,6 +57,16 @@ int cool[5]; // cool is a array of 5 ints
 int cool(); // cool is a function returning int
 int **cool[4]; // cool is a array of 4  pointer to pointer to int
 
+Basic rule if you use
+1.double pointer
+Void hello(**cool, data){
+}
+hello(&cool, data); 
+
+2.single pointer
+Void hello(**cool, data){
+}
+hello(cool, data);
 
 int **a=new int*[n]; //// Create an array of pointers to integer arrays i.e., an array of variable-length arrays
 ////////////////////
